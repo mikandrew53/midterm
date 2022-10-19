@@ -4,3 +4,9 @@
 Button.-primary {
   font-size: 18;
 }
+
+
+.title {
+  font-weight: bold;
+  font-size: 50;
+}

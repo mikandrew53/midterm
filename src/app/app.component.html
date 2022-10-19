@@ -1,3 +1,16 @@
-<GridLayout>
-  <page-router-outlet></page-router-outlet>
-</GridLayout>
+<Frame>
+    <Page>
+        <StackLayout>
+            <FlexboxLayout backgroundColor="blue" alignItems="center"  justifyContent="center">
+                <ActionBar >
+                    <Label class="title" text="My book list app"></Label>
+                  </ActionBar>
+            </FlexboxLayout>
+            <ns-activity-one></ns-activity-one>
+            <!-- <ns-checkout *ngIf="!activityOneView"></ns-checkout> -->
+            <!-- <button text="Tap me!" (tap)="onTap($event)"></button> -->
+            <!-- <Label [text]="activityOneView"></Label> -->
+        </StackLayout>
+    </Page>
+</Frame>
+<!-- <FlexboxLayout alignItems="flex-start" backgroundColor="#3c495e"></FlexboxLayout> -->
